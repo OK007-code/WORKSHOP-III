@@ -1,5 +1,6 @@
-let str ="Welcome";
-let s="Hello world";
+let str = "Welcome";
+let s = "Hello world";
+
 console.log(str.toUpperCase());
 console.log(str.toLowerCase());
 console.log(str.charAt(4));
@@ -9,17 +10,24 @@ console.log(str.split(""));
 console.log(s.replace("world", "everyone"));
 console.log(str.concat(" ", s));
 console.log(str.includes("come"));
+
 let array = ["apple", "banana", "cherry"];
 console.log(array.push("date"));
+console.log(array);
 console.log(array.pop());
-console.log(array.shift(4));
+console.log(array);
+console.log(array.shift());
+console.log(array);
 console.log(array.unshift("kiwi"));
+console.log(array);
+
 let date = new Date();
 console.log(date);
 console.log(date.getDate());
 console.log(date.getFullYear());
-console.log(date.getMonth());
-//math object
+console.log(date.getMonth() + 1);
+
+// math object
 console.log(Math.PI);
 console.log(Math.round(4.7));
 console.log(Math.min(1, 2, 3, 4, 5));
@@ -27,7 +35,8 @@ console.log(Math.max(1, 2, 3, 4, 5));
 console.log(Math.sqrt(16));
 console.log(Math.pow(2, 3));
 console.log(Math.abs(-5));
-//math using array
+
+// math using array
 let numbers = [1, 2, 3, 4, 5];
 console.log(Math.min(...numbers));
 console.log(Math.max(...numbers));

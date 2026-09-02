@@ -16,3 +16,16 @@ let employee = {
 console.log(`Before increase: ${employee.salary}`);
 employee.increaseSalary(1000);
 console.log(`After increase: ${employee.salary}`);
+
+//create an object student with: name= John, grade 10 create a method addMarks() that adds 5 marks to the exixiting marks create another method display() that displays the name, grade and marks of the student
+let student = {
+    name: "John",
+    grade: 10,
+    marks: 0,
+    addMarks: function(amount) {
+        this.marks += amount;
+    },
+    display: function() {
+        console.log(`Name: ${this.name}, Grade: ${this.grade}, Marks: ${this.marks}`);
+    }
+};
