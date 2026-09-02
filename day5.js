@@ -29,3 +29,18 @@ let student = {
         console.log(`Name: ${this.name}, Grade: ${this.grade}, Marks: ${this.marks}`);
     }
 };
+student.addMarks(5);
+student.display();
+
+//create a function clg and use dep and class as obj and display details
+function college(){
+    let dep={
+        name:"Computer Science",
+    };
+    let class_obj={
+        name:"Class A",
+    };
+    console.log("Department:", dep.name);
+    console.log("Class:", class_obj.name);
+}
+college();
