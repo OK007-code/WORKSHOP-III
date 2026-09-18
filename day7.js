@@ -33,7 +33,6 @@ let student2 = new Student("Jivisha", 22, 2);
 let student3 = new Student("Saanvi", 21, 3);
 let student4 = new Student("Kavish", 23, 4);
 let student5 = new Student("BoomBoom", 20, 5);
-
 student1.show();
 student2.show();
 student3.show();
