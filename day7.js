@@ -1,11 +1,5 @@
 // //with constructor
 // class AA{
-//     constructor (name){
-//         console.log("Constructor called");
-//         console.log("Name: " + name);
-//     }
-// }
-// let obj = new AA("Jivisha Gupta");
 // // without constructor
 // class A{
 //     name;
@@ -39,34 +33,35 @@
 // student4.show();
 // student5.show();
 
-class hello{
-    static name="example of static method with instance var"
-    constructor(){
-        this.instanceVar="example of instance var"
-    }
-    show(){
-        console.log("Static Var: " + hello.name);
-        console.log("Instance Var: " + this.instanceVar);
-    }
-}
+// class hello{
+//     static name="example of static method with instance var"
+//     constructor(){
+//         this.instanceVar="example of instance var"
+//     }
+//     show(){
+//         console.log("Static Var: " + hello.name);
+//         console.log("Instance Var: " + this.instanceVar);
+//     }
+// }
 
-let obj = new hello();
-obj.show();
-//static method with instance method without constructor
-class Student {
-    name;
-    roll_number;
-    static college_name="ABESEC";
-    show() {
-        console.log("Name: " + this.name + ", Roll Number: " + this.roll_number);
-    }
-    static displayCollegeName() {
-        console.log("College Name: " + this.college_name);
-    }
-}
-const student = new Student();
-student.name = "Omika";
-student.roll_number = 131;
+// let obj = new hello();
+// obj.show();
+// //static method with instance method without constructor
+// class Student {
+//     name;
+//     roll_number;
+//     static college_name="ABESEC";
+//     show() {
+//         console.log("Name: " + this.name + ", Roll Number: " + this.roll_number);
+//     }
+//     static displayCollegeName() {
+//         console.log("College Name: " + this.college_name);
+//     }
+// }
+// const student = new Student();
+// student.name = "Omika";
+// student.roll_number = 131;
 
-student.show();
-Student.displayCollegeName();
+// student.show();
+// Student.displayCollegeName();
+
