@@ -28,3 +28,39 @@
 // s2.displayResult();
 // s3.displayResult();
 // Student.displayCount();
+
+
+//bank account mamangement system
+class BankAccount {
+    constructor(id, name, balance) {
+        this.id = id;
+        this.name = name;
+        this.balance = balance;
+    }
+    withdraw(amount){
+        if (amount <= this.balance) {
+            this.balance -= amount;
+            console.log(`Amount withdrawn: ${amount}`);
+        } else {
+            console.log("Insufficient balance");
+        }
+    }
+    deposit(amount){
+        this.balance += amount;
+        console.log(`Amount deposited: ${amount}`);
+    }
+    static bankinfo(account){
+        console.log("Bank Name: ABC Bank");
+        console.log("Branch: Main Branch");
+        console.log("Amount left in account: " + account.balance);
+    }
+}
+let account1 = new BankAccount(1, "Omika", 1000);
+account1.deposit(500);
+account1.withdraw(300);
+BankAccount.bankinfo(account1);
+
+let account2 = new BankAccount(2, "Jivisha", 2000);
+account2.deposit(100);
+account2.withdraw(1700);
+BankAccount.bankinfo(account2);
