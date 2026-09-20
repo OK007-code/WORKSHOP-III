@@ -29,7 +29,6 @@
 // s3.displayResult();
 // Student.displayCount();
 
-
 //bank account mamangement system
 class BankAccount {
     constructor(id, name, balance) {
