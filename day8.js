@@ -24,3 +24,14 @@ const manager  = new Manager(2, "Jivisha", 60000, 10000);
 
 console.log(emp1.calculateSalary()); 
 console.log(manager.calculateSalary()); 
+
+
+//use timeout to print "Hello, World!" after 2 seconds.
+function printHelloWorld() {
+    setTimeout(() => {
+        console.log("Hello, World!");
+    }, 2000);
+}
+
+printHelloWorld();
+console.log("hi");
